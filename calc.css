@@ -1,0 +1,18 @@
+.container {
+	background: #E8E6E8;
+	padding: 20px;
+	border-radius: 10px;
+	width: 50%;
+	display: block;
+}
+
+#loan-val {
+	background: white;
+	border: 2px solid black;
+	border-radius: 5px;
+	padding: 2px;
+}
+
+.inline {
+	display: inline;
+}
