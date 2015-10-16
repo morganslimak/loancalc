@@ -13,6 +13,18 @@ $("#slider").slider({
 
 $("#loan-val").val("$8000");
 
+$("#slider2").slider({
+	range: "min",
+	min: 12,
+	max: 120,
+	value: 24,
+	slide: function(event, ui) {
+        $("#time").val(ui.value + " Months (~" + Math.floor((ui.value/12)) + " Yr)");
+      }
+});
+
+$("#time").val("24 Months (~2 Yr)");
+
 
 
 })
