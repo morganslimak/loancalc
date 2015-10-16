@@ -25,6 +25,20 @@ $("#slider2").slider({
 
 $("#time").val("24 Months (~2 Yr)");
 
+$("#slider3").slider({
+	range: "min",
+	min: 0,
+	max: 40,
+	value: 10,
+	step: .1,
+	value: 10,
+	slide: function(event, ui) {
+        $("#apr").val(ui.value + "%");
+      }
+});
+
+$("#apr").val("10%");
+
 
 
 })
